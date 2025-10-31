@@ -1,0 +1,14 @@
+
+# Minimal runtime dependencies for the detection demo in this repo
+# NOTE: Install torch separately to match your CUDA/drivers. See https://pytorch.org/get-started/locally
+ultralytics
+pillow
+numpy
+opencv-python
+
+# Optional / example torch install lines (do NOT add to requirements.txt directly unless
+# you know the appropriate wheel for your system). Use these as copy-paste examples.
+# CPU-only example (use if you don't have CUDA or prefer CPU):
+#   python -m pip install "torch" "torchvision" "torchaudio" --index-url https://download.pytorch.org/whl/cpu
+# CUDA 11.8 example (replace cu118 with the correct CUDA version for your system):
+#   python -m pip install "torch" "torchvision" "torchaudio" --index-url https://download.pytorch.org/whl/cu118
